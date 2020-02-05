@@ -1,82 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+  <style>
+    body {
+    font-family:  'Crimson Text', serif;
+    }
+
+
+    @media (max-width: 640px) {
+
+      /* For mobile phones: */
+      .col-lg {
+        display: none;
+      }
+
+      .col-md {
+        display: none;
+      }
+
+      nav ul{
+      list-style:none;
+      text-align: left;
+      padding: 0;
+      margin:auto;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      }
+
+    }
+
+    .col {
+      margin-inline: auto;
+    }
+
+    img {
+      padding: 5px;
+    }
+
+@media(min-width: 980px){
+  .col-lg {
+        display:contents;
+      }
+
+      .col-md {
+        display:contents;
+      }
+  
+
+  .navbar-nav{
+      float: none;
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+    }
+}
+
+
+  </style>
+
+
 </head>
+
 <body>
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Denisa</a>
-        </div>
-          <ul class="nav navbar-right">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                About 
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Portfolio
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" >
-                Contact
-              </a>
-            </li>
-          </ul>
-      </div>
-    </nav>
-
+  <nav class="navbar">
     <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Denisa</a>
+      </div>
+      <ul class="nav navbar-right">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Portfolio
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-        <div class="row">
-              <div class="col-6">
-                  <h1>   hello this is denisa </h1>
-        
-              </div>
-        
-        </div>
-                      
-        <div class="row">
-            <div class="col-sm">
+  <div class="container-fluid">
 
-                  <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni"/>
-            </div>
+    <div class="row">
+      <div class="col">
+        <blockquote class="blockquote">
+          <h1 class="mb-0"> Denisa Dupu </h1>
+        </blockquote>
 
-            <div class="col-lg">
-
-                <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni"/>
-            </div>
-        </div>
-
-        <div class="row">
-                <div class="col-sm">
-
-                  <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni"/>
-    
-                </div>
-    
-                <div class="col-lg">
-    
-                    <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni"/>
-                </div>
-        </div>
-
-        <div class="row">
-                <div class="col-lg">
-
-                    <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni"/>
-    
-                </div>
-        </div>
-
+      </div>
 
     </div>
+
+    <div class="row">
+      <div class="col-sm">
+
+        <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni" />
+      </div>
+
+      <div class="col-md">
+
+        <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+
+        <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni" />
+
+      </div>
+
+      <div class="col-md">
+
+        <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+
+        <img src="https://via.placeholder.com/300X250C/O https://placeholder.com/" alt="deni" />
+
+      </div>
+    </div>
+
+
+  </div>
 </body>
+
 </html>
